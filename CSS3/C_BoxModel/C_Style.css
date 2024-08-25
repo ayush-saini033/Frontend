@@ -1,0 +1,30 @@
+
+.heading{
+    background-color: violet;
+    border: 5px solid purple;
+}
+
+.para1{
+    background-color: skyblue;
+    border: 5px solid #adff2f;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+/* there is margin collapse */
+.para2{
+    background-color: wheat;
+    border: 5px solid orange;
+    width: 50%;
+    /* margin: 200px; */
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.para3{
+    background-color: rgb(179, 197, 245);
+    border: 5px solid rgb(0, 255, 106);
+    width: 50%;
+    /* for center*/
+    margin: auto;
+}

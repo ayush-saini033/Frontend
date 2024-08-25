@@ -1,0 +1,23 @@
+main{
+    border: 5px dotted brown;
+    border: 5px dashed;
+    /* it took the 50% width of the parent */
+    width: 50%;
+    /* absolute unit */
+    width: 25vw;
+}
+header{
+    /* double the size of element default size */
+    font-size: 2em;
+}
+section{
+    border: 5px dashed green;
+    width: 50%;
+    /* absolute unit */
+    width: 50vw;
+}
+/* pixel is the absolute unit */
+/* em is relative to the parrent */
+/* rem is relative to the root */
+/* use rem in declartion of font size */
+/* rem is relative to the html */

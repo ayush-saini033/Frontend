@@ -1,0 +1,14 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+/* for transparent image */
+img{
+    /* box-shadow: 0 0 0 40px red; */
+    filter: drop-shadow(10px 10px 20px red);
+}

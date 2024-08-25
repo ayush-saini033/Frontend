@@ -1,0 +1,35 @@
+.para{
+    /* for proper cover the line */
+    text-align: justify;
+    text-align: center;
+    text-align: left;
+    /* inherit the property of parent */
+    text-align: inherit;
+    text-align: right;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-style: oblique;
+    font-style: italic;
+}
+a{
+    /* line draw above the word */
+    text-decoration: overline;
+    /* line draw throug the word */
+    text-decoration: line-through;
+    /* line below the word */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    
+}
+h1{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    /* color: transparent; */
+    text-shadow: 4px 2px 5px blue; 
+    font-family: monospace;
+    font-family: sans-serif;
+}
+
+/* web safe fonts are those font which are univresaly avilable in you browser */

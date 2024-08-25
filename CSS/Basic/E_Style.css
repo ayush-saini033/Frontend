@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* it means box sizing also consider the size of border */
+    /* box sizing take the border as reference */
+    box-sizing: border-box;
+}
+
+.box{
+    /* this widh and height is only for content size */
+    /* it takes the conten size as reference */
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    /* padding is for seprate from th border */
+    /* top bottom left right */
+    padding: 40px 30px 20px 10px;
+    /* margin is for seprate the two element */
+    margin: 40px;
+}

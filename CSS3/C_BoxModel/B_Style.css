@@ -1,0 +1,13 @@
+.section-border{
+    background-color: violet;
+    border: 5px solid blue;
+    padding: 50px;
+    /* top-bottom, left-right */
+    padding: 12px 40px;
+    /* top, right, bottom, left */
+    padding: 20px 30px 50px 60px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle,pink, purple, red);
+    /* default value is ellipse */
+    background-image: radial-gradient(ellipse,pink 20%, purple 40%, red 40%);
+    background-image: repeating-radial-gradient(circle,pink,purple, red 50px);
+    background-image: radial-gradient(circle at center, #ff5733 0%, #ffc300 20%, #ff5733 40%,#2980b9 60%,#33ff57 80%,#2980b9 100%);
+}

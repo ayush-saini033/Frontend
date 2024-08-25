@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    text-align: end;
+    padding: 15px;
+    background-color: #212121;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding-left: 30px;
+}
+li:hover{
+    cursor: pointer;
+    color: gold;
+}

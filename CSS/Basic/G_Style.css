@@ -1,0 +1,19 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    /* width: 50%; */
+    display: block;
+    display: inline;
+    display: inline-block;
+    height: 40px;
+}
+a{
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+}

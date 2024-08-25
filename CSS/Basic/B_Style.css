@@ -1,0 +1,48 @@
+/* universal selector */
+*{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* *{
+    background-color: yellow;
+} */
+body{
+    font-size: 20px;
+}
+
+/* nested selector */
+#second>p{
+    color: aqua;
+}
+
+#first{
+    color: red;
+}
+
+.purple{
+    color: purple;
+    font-family: monospace;
+}
+
+.green{
+    background-color: green;
+}
+
+.highlight{
+    font-family: 'Courier New';
+}
+
+/* group selector */
+.purple, .green{
+    background-color: blueviolet;
+}
+
+/* pesudo selector */
+
+p:hover{
+    font-family: monospace;
+}
+
+/* important keyword make a higher priority */

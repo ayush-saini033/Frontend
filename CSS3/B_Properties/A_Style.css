@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-color: #ccc;
+    background-image: url('/A_Images/B_Clothes.avif'),url('/A_Images/D_Coat.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

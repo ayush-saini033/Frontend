@@ -1,0 +1,30 @@
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: gainsboro;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    /* float: left; */
+    overflow: auto;
+}
+
+.red{
+    background-color: red;
+    float: left;
+}
+.green{
+    background-color: green;
+    clear: right;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

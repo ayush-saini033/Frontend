@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(0,0%,94%);
+    display: grid;
+    place-items: center;
+    font-family: monospace;
+}
+
+.hero-section{
+    width: 50%;
+}
+
+h1{
+    font-size: 54px;
+    font-weight: 900;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    text-decoration-style: wavy;
+    text-decoration-style: solid;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /* offset-x, offset-y , blur, color */
+    text-shadow: -2px 5px 10px blue;
+}
+
+p{
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+p,a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+/* pseudo-element */
+
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+}
+

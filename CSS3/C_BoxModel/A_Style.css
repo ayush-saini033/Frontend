@@ -1,0 +1,67 @@
+.section-border{
+    background-color: rgb(67, 67, 227);
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+#main-heading{
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+
+}
+
+.next-section{
+    border-top: 10px  solid;
+    border-right: 10px dotted;
+    border-left: 10px dashed;
+    border-bottom: 10px ridge;
+    border-radius: 15px;
+}
+
+.box-r{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+.design{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    /* make it by fancy border radius */
+    border-radius: 30% 70% 70% 30%/ 30% 30% 70% 70%;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+.leaf{
+    width: 200px;
+    height: 200px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+    background: #ee0979;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+}
